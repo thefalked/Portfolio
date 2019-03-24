@@ -9,20 +9,10 @@
 }
 
 .titulo{
-    z-index: 3;
-    top: 44%;
-    position: absolute;
-    width: 100%;
-    text-align: center;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.71);
 }
 
 .descricao{
-    z-index: 3;
-    top: 51.5%;
-    position: absolute;
-    width: 100%;
-    text-align: center;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.71);
 }
 
@@ -34,4 +24,37 @@
 
 .bg-black{
     background-color: black
+}
+
+.view {
+    background-image: url(../Imagens/teste-image.jpg);
+    background-size: cover;
+}
+@media (min-width: 768px) {
+    .view {
+        overflow: visible;
+        margin-top: -56px;
+    }
+}
+.navbar {
+    z-index: 1;
+}
+.navbar {
+    background-color: transparent;
+}
+.top-nav-collapse {
+    background-color: transparent;
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #573362;
+    }
+}
+
+html,
+body,
+header,
+.view {
+  
+    height: 100vh;
 }
