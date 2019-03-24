@@ -1,13 +1,3 @@
-.header-rellax {
-    background-image: url(../Imagens/teste-image.jpg);
-    background-size: cover;
-    background-position: center center;
-    text-align: center;
-    position: relative;
-    top: 0;
-    height: 100vh;
-}
-
 .titulo{
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.71);
 }
@@ -18,7 +8,7 @@
 
 .bloco{
     height: 100vh;
-    padding-top: 10%;
+    padding-top: 15%;
     padding-bottom: 10%;
 }
 
@@ -29,6 +19,11 @@
 .view {
     background-image: url(../Imagens/teste-image.jpg);
     background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: relative;
+    top: 0;
+    height: 100vh;
 }
 @media (min-width: 768px) {
     .view {
@@ -36,12 +31,21 @@
         margin-top: -56px;
     }
 }
+
+.nav-link, .navbar-brand{
+    color: #573362!important;
+    font-weight: bold;
+    text-shadow: 1px 0px 4px #FFFFFF;
+}
+
 .navbar {
     z-index: 1;
 }
+
 .navbar {
     background-color: transparent;
 }
+
 .top-nav-collapse {
     background-color: transparent;
 }
@@ -49,12 +53,13 @@
     .navbar {
         background-color: #573362;
     }
-}
-
-html,
-body,
-header,
-.view {
-  
-    height: 100vh;
+    
+    .nav-link, .navbar-brand{
+        color: white !important;
+        font-weight: lighter;
+        text-shadow: none;
+    }
+    .page-footer{
+        margin-top: 11.4%;
+    }
 }
