@@ -25,6 +25,7 @@
     top: 0;
     height: 100vh;
 }
+
 @media (min-width: 768px) {
     .view {
         overflow: visible;
@@ -49,6 +50,7 @@
 .top-nav-collapse {
     background-color: transparent;
 }
+
 @media only screen and (max-width: 768px) {
     .navbar {
         background-color: #573362;
@@ -62,4 +64,12 @@
     .page-footer{
         margin-top: 11.4%;
     }
+}
+
+.size-icon{
+    font-size: 7rem;
+}
+
+.purple{
+    background-color: #4a148c
 }
