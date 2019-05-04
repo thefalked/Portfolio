@@ -113,9 +113,3 @@
         background-image: linear-gradient(158deg,#fccb90 0,#d57eeb 100%);
     }
 }
-
-@media only screen and (max-width: 1140px) {
-    .gradient-footer{
-        background-image: linear-gradient(158deg,#fccb90 0,#d57eeb 100%);
-    }
-}
